@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+main{
+   height: 100vh;
+}
+
+.main .navigation{
+    height: 100%;
+    
+}
+.main nav .slides{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.main nav .painel{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main nav .painel-branco{
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    margin-left: 61px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.painel .painel-branco h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 20px 0px 0px 35px;
+}
+.painel .painel-branco p{
+    text-transform: justify;
+    padding: 35px 35px 0px 35px;
+}
+.painel .painel-branco .saibamais{
+      padding: 0px 0px 0px 35px;
+      margin-top: 20px;
+}
+.seta-left, .seta-right{
+    width: 49px;
+    height: 78px;
+
+}
+.seta-left{
+    margin-left: 70px;
+}
+.seta-right{
+    margin-right: 70px;
+
+}
+.seta-opaca{
+    opacity: 0.4;
+}
+.painel .painel-branco .saibamais1{
+   color: red;
+}
+.painel .painel-branco .saibamais2{
+    color: yellow;
+ }
+ .painel .painel-branco .saibamais3{
+    color: brown;
+ }
+ .painel .painel-branco .saibamais4{
+    color: blue;
+ }
+
+
+.main .navigation .slide1{
+    background-image: url(./imagem-1.jpg);
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    display: none;
+    
+}
+.main .navigation .slide2{
+    background-image: url(./imagem-2.jpg);
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+
+}
+.main .navigation .slide3{
+    background-image: url(./imagem-3.jpg);
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+
+}
+.main .navigation .slide4{
+    background-image: url(./imagem-4.jpg);
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+
+}
+ .main .navigation .mostrar{ 
+    z-index: 5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+
+
